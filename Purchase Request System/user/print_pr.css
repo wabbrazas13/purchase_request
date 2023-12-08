@@ -1,0 +1,288 @@
+.po
+{
+    background-image: url('../images/po.png') !important;
+    height: 2640px;
+    width: 1700px;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    margin: 1px auto 0px auto;
+}
+
+.box1
+{
+    margin-top: 575px;
+    margin-left: 405px;
+    margin-right: 80px;
+    height: 90px;
+}
+
+.box2
+{
+    margin-left: 1230px;
+    margin-right: 80px;
+    height: 72px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3
+{
+    margin-left: 80px;
+    margin-right: 80px;
+    height: 75px;
+    display: flex;
+}
+
+.box4
+{
+    margin-top: 90px;
+    height: 1160px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.box5
+{
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 1000px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.box6
+{
+    height: 110px;
+    margin-left: 246px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.box7
+{
+    margin-top: 202px;
+    height: 40px;
+    margin-left: 246px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.box8
+{
+    height: 76px;
+    margin-left: 246px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.box9
+{
+    margin-left: 80px;
+}
+
+.box9 p
+{
+    font-size: 20px;
+}
+
+
+#bo_name
+{
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 150px;
+}
+
+#bo_name p
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    height: 25px;
+}
+
+#bo_lbl
+{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 160px;
+}
+
+#bo_lbl p
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+#fc
+{
+    padding: 0px 10px 0px;
+}
+
+#fc p
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 26px;
+}
+
+#os
+{
+    margin-left: 170px;
+    width: 152px;
+    height: 75px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#os p
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 26px;
+}
+
+#d
+{
+    margin-left: 800px;
+    width: 420px;
+    height: 75px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#d p
+{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.box4 td
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    border-bottom: 1px solid grey;
+}
+
+#col1
+{
+    width: 166px;
+    text-align: center;
+}
+
+#col2
+{
+    width: 156px;
+    text-align: center;
+}
+
+#col3
+{
+    width: 454px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#col4
+{
+    width: 200px;
+    text-align: center;
+}
+
+#col5
+{
+    width: 199px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#col6
+{
+    width: 360px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.box5 p
+{
+    font-size: 30px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box6 p
+{
+    font-size: 25px;
+    line-height: 26px;
+    margin: 0px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box7 #rb p,.box7 #ra p,.box7 #ab p
+{
+    font-size: 21px;
+    line-height: 26px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box8 #rb p,.box8 #ra p,.box8 #ab p
+{
+    padding: 10px;
+    font-size: 21px;
+    line-height: 26px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#rb
+{
+    width: 612px;
+}
+
+#ra
+{
+    width: 398px;
+}
+
+#ab
+{
+    width: 358px;
+}

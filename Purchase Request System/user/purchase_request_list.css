@@ -1,0 +1,253 @@
+section
+{
+    zoom: 0.75;
+    margin-top: 130px;
+}
+
+/*----------------------------------------------HEADER CSS--------------------------------------------*/
+
+hr{
+    margin: 0px;
+}
+
+#apr{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    padding: 2px 9px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    border: 5px solid grey;
+}
+
+#apr:hover{
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+/*----------------------------------------------BODY--------------------------------------------*/
+
+.wrapper 
+{
+    margin: 20px 20px 0px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+}
+
+.col1
+{
+    display: inline-block;
+}
+
+.col2
+{
+    float: right;
+}
+
+thead
+{
+    background-color: rgb(47, 143, 187);
+    color: white;
+}
+
+tbody
+{
+    background-color: aliceblue;
+}
+
+th
+{
+    border: 1px solid white;
+}
+
+td
+{
+    border: 1px solid white;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.vam
+{
+    vertical-align: middle;
+}
+
+.vab
+{
+    vertical-align: bottom;
+}
+
+/************* SELECT DROPDOWN *********************/
+
+.dropbtn-se {
+    font-size: 20px;
+    border: 1px solid grey;
+    border: none;
+}
+  
+.dropdown-se {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content-se {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content-se a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content-se a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown-se:hover .dropdown-content-se {
+    display: block;
+}
+  
+.dropdown-se:hover .dropbtn-se {
+    background-color: whitesmoke;
+}
+
+/***********************************************DROPDOWN YEAR**********************************/
+
+.dropbtn-y {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+  
+.dropdown-y {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content-y {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content-y a {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content-y a:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    font-weight: bold;
+}
+  
+.dropdown-y:hover .dropdown-content-y {
+    display: block;
+}
+  
+.dropdown-y:hover .dropbtn-y {
+    background-color: blue;
+}
+
+/***********************dropdown month******************************/
+
+.dropbtn-m {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+  
+.dropdown-m {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content-m {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content-m a {
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content-m a:hover {
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    font-weight: bold;
+}
+  
+.dropdown-m:hover .dropdown-content-m {
+    display: block;
+}
+  
+.dropdown-m:hover .dropbtn-m {
+    background-color: blue;
+}
+
+.nodata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nodata h1{
+    margin: 0px;
+    color: rgb(110, 10, 10);
+}
+
+.btn-refresh button{
+    height: 40px;
+    font-size: 18px;
+    background-color: #90b3e7;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-refresh button:hover{
+    background-color: #0e3269;
+    color: white;
+}

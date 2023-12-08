@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}   
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+}
+.navbar-brand:hover{
+    cursor: pointer;
+    color: #F2BA49;
+}
+.btn{
+    font-weight: 500;
+    color: #fff;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+.subtext{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#F2BA49;
+}
+
+.signin{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+.signin:hover{
+    cursor: pointer;
+    color: #F2BA49;
+}
+.modal-header{
+    background-color:#F2BA49;
+    color: #fff;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited{
+    background-color: #800000 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+#fixed{
+    background: url(images/bgrdo.jpg) no-repeat center center fixed;
+    display: table;
+    height: 25%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.page-section{
+    background-image: url('images/bg.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+
+
+footer{
+    
+    color: #FFF;
+    width: 100%;
+    /* padding: 5% 5% 10% 5%; */
+}
+.icon-footer{
+    max-width: 150px;
+
+}
+
+.socmed-links i{
+   color: #800000;
+}

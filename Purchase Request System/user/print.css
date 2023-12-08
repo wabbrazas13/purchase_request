@@ -1,0 +1,10 @@
+@media print and (width: 8.5in) and (height: 13in) {
+    @page {
+        margin: none;
+    }
+}
+
+#btn-print{
+    display: none;
+    visibility: none;
+}

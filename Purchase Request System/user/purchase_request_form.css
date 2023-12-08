@@ -1,0 +1,216 @@
+/*----------------------------------------------HEADER CSS--------------------------------------------*/
+.form-select
+{
+    font-size: 20px;
+}
+
+hr
+{
+    color: white;
+    border-width: 5px;
+}
+
+label
+{
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lbly
+{
+    color: black;
+}
+
+body
+{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgb(136, 132, 132), black);
+}
+
+section
+{
+    zoom: 0.75;
+    margin-top: 120px;
+}
+
+/*----------------------------------------------MODAL CSS--------------------------------------------*/
+
+.modal-body {
+    margin-bottom: 10px;
+}
+
+.modal-header, .modal-footer{
+    background-image: linear-gradient(#6d1913,black);
+}
+
+.modal-title {
+    color: white;
+}
+
+#add-person-modal input {
+    width: 400px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    vertical-align: middle;
+}
+
+#add-person-modal select {
+    width: 400px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #d6d6d6;
+    vertical-align: middle;
+}
+
+#add-person-modal label {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#add-item-modal input {
+    width: 400px;
+    height: 35px;
+    margin-left: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    vertical-align: middle;
+}
+
+#add-item-modal textarea {
+    width: 400px;
+    height: 200px;
+    margin-left: 30px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #d6d6d6;
+    vertical-align: middle;
+}
+
+#add-item-modal label {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/*----------------------------------------------ADD STOCK/PROPERTY CSS--------------------------------------------*/
+
+.add-property-container 
+{
+    margin: 20px 20px 0px 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background: whitesmoke;
+}
+
+.add-property-container th
+{
+    color: white;
+    height: 40px;
+    padding: 5px;
+    background: black;
+    border: 1px solid grey;
+}
+
+.add-property-container td
+{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 0px 5px;
+}
+
+/*----------------------------------------------ADD PURCHASE REQUEST--------------------------------------------*/
+
+.add-pr-container
+{
+    margin: 20px 20px 30px 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.col1 
+{
+    display: inline-block;
+}
+
+.col2
+{
+    float: right;
+}
+
+.col1 input
+{
+    height: 40px;
+    width: 552px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 5px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.col1 label
+{
+    font-size: 18px;
+    text-align: left;
+}
+
+.col2 select
+{
+    height: 40px;
+    width: 450px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 5px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.col2 textarea
+{
+    height: 105px;
+    width: 550px;
+    padding: 5px 20px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+
+.col2 label
+{
+    font-size: 18px;
+}
+
+.col1 select
+{
+    border: 1px solid grey;
+}
+
+.at{
+    margin-bottom: 5px;
+}
+
+.at a
+{
+    color: black;
+    width: 160px;
+    text-align: center;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.at a:hover
+{
+    background-color: black;
+    color: white;
+}

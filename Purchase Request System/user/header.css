@@ -1,0 +1,118 @@
+.header-wrapper {
+    height: 70px;
+    background-color: #89180F;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-image: linear-gradient(to bottom, #89180F, black);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 70px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 70px;
+}
+
+#rdo_logo a img{
+    max-height: 60px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#logo_lbl a{
+    max-height: 60px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold; 
+    font-size: 35px; 
+}
+
+#logo_lbl a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+#dp {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#dp:hover{
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#dp_icon {
+    height: 30px;
+    width: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dp a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#dp a:hover{
+    color: skyblue;
+}
+
+#users{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#users:hover{
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#users a{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#users a i{
+    color: greenyellow;
+}
+
+#logout{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#logout:hover{
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+#logout a{
+    max-height: 60px; 
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#logout a i{
+    color: red;
+}

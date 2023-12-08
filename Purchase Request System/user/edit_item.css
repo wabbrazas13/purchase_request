@@ -1,0 +1,155 @@
+body
+{
+    background-color: #ccccff;
+    padding-bottom: 200px;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+.box1
+{
+    width: fit-content;
+    margin: 10px auto 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box1 img
+{
+    width: 640px;
+    height: 120px;
+}
+
+.box2
+{
+    width: 640px;
+    height: 50px;
+    margin: 15px auto 0px auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box2 h1
+{
+    margin: 0px 20px 0px 20px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.box3
+{
+    width: 640px;
+    height: 120px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.box3a, .box4a, .box5a, .box6a
+{
+    margin: 0px 20px 0px 20px;
+}
+
+.box3b, .box4b, .box5b, .box6b
+{
+    margin: 0px 20px 0px 20px;
+}
+
+.box3b input, .box4b textarea, .box5b input, .box6 input
+{
+    font-size: 16px;
+    border-style: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    width: 590px;
+    max-width: 590px;
+}
+
+.box3b input:focus, .box4b textarea:focus, .box5b input:focus, .box6b input:focus
+{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+.box4
+{
+    width: 640px;
+    height: fit-content;
+    margin: 15px auto 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px 30px 10px;
+}
+
+.box5
+{
+    width: 640px;
+    height: fit-content;
+    margin: 15px auto 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px 30px 10px;
+}
+
+.box6
+{
+    width: 640px;
+    height: fit-content;
+    margin: 15px auto 0px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 10px 30px 10px;
+}
+
+.btn-back
+{
+    height: 35px;
+    width: 80px;
+    border: hidden;
+    border-radius: 5px;
+    color: blue;
+}
+
+.btn-back:hover
+{
+    background-color: whitesmoke;
+    color: blue;
+    height: 36px;
+    width: 81px;
+}
+
+.btn-update
+{
+    margin-left: 10px;
+    height: 35px;
+    width: 80px;
+    border: hidden;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.btn-update:hover
+{
+    background-color: rgb(17, 17, 148);
+    color: white;
+    height: 36px;
+    width: 81px;
+}
+
+.btn
+{
+    width: 659px;
+    margin: 25px auto 0px auto;
+}
